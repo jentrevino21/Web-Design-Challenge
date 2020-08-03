@@ -1,0 +1,66 @@
+body {
+    background-color: #D9DFF7;
+    font-family: ‘Trebuchet MS’, ‘Lucida Sans Unicode’, ‘Lucida Grande’, ‘Lucida Sans’, Arial, sans-serif;
+}
+h1,h2,h4 {
+    color: #016FDD;
+    text-align:center;
+    font-weight: bold;
+    font-family: ‘Trebuchet MS’, ‘Lucida Sans Unicode’, ‘Lucida Grande’, ‘Lucida Sans’, Arial, sans-serif;
+}
+p, ul {
+    color: #016FDD;
+    font-family: ‘Trebuchet MS’, ‘Lucida Sans Unicode’, ‘Lucida Grande’, ‘Lucida Sans’, Arial, sans-serif;
+}
+a{
+    color : #E0E0E2;
+    font-size: 20px;
+}
+thead{
+    background-color: rgb(121, 247, 209);
+}
+/*this section of the CSS code will change Bootstrap eleemnts */
+.navbar-brand{
+    font-size: 40px;
+    font-weight: bolder;
+    color: #E0E0E2;
+    margin-left: 100px;
+}
+.navbar{
+    background-color: #016FDD;
+}
+.box{
+    background-color: #E2F3F1 ;
+    padding: 5%;
+    border: 2px solid #7389AE;
+    border-radius: 10px;
+    margin-top: 80px;
+}
+/* This Code will modify classes set by the designer  */
+.sizing{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+.sum_left_png{
+    align-content: center;
+}
+.home_right {
+    width: 100%;
+    height: auto;
+}
+.visual_margin {
+    margin-top: 10px;
+}
+.dataframe {
+        background-color: #C8C8CC;
+        margin-left: auto;
+        margin-right: auto;
+}
+#home_left{
+    float: left;
+    padding: 5px;
+}
+.home_right.active{
+    border: 2px solid #06F3A4
+}
